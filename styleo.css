@@ -464,7 +464,7 @@ button.social-signin.google {
     text-align: center;
 }
 
-@media only screen and (min-width: 300px) {
+@media (min-width:300px)  and (max-width: 375px) {
   .sec1{
     background-size: contain;
     height: 45vh;
@@ -473,7 +473,7 @@ button.social-signin.google {
   
 
   .tit{
-    color: white;
+    color: coral;
     font-size: 1.5em;
     margin-top: 5em;
   }
@@ -489,7 +489,22 @@ button.social-signin.google {
     font-size: 1.5rem;
   }
 
+  .p{
+    margin-left: 15px;
+    font-size: 1.0rem;
+  }
+
   .contpara{
     padding: 5px;
   }
+
+  .sec3{
+    background-color: ;
+  }
+
+  .social-links{
+    text-align: center;
+  }
+
+  
 }
