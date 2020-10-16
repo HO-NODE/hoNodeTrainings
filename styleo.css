@@ -94,7 +94,7 @@ body {
 /* Sec: 2*/
 .sec2{
   margin: 2%;
-  padding-top: 8%;
+  padding-top: 10%;
 }
 .sec2head{
   text-align: center;
@@ -138,6 +138,7 @@ body {
   color: coral;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 2%;
 }
 
 .sec1btn{
