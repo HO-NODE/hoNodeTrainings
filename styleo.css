@@ -501,6 +501,7 @@ button.social-signin.google {
 
   .sec3head, .cont{
     display: none;
+    margin: 0;
   }
 
   .signup, .footer-info{
@@ -511,10 +512,15 @@ button.social-signin.google {
     font-size: 1.5rem;
   }
 
-  .social-links, .footer-contact{
+
+  .social-links{
     text-align: center;
     position: absolute;
-    padding-top: 150%;
+    margin-top: 110%;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    
   }
 
   
