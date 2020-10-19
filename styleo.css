@@ -490,6 +490,8 @@ button.social-signin.google {
     font-size: 1.5rem;
   }
 
+
+
   .p{
     margin-left: 15px;
     font-size: 1.0rem;
@@ -504,9 +506,20 @@ button.social-signin.google {
     margin: 0;
   }
 
-  .signup, .footer-info{
+  .signup{
     display: none;
   }
+
+
+  .footer-info{
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .footer-info > img{
+    width: 25%;
+  }
+
 
   .footer-contact h4, .footer-newsletter h4{
     font-size: 1.5rem;
@@ -516,7 +529,7 @@ button.social-signin.google {
   .social-links{
     text-align: center;
     position: absolute;
-    margin-top: 110%;
+    margin-top: 120%;
     padding-left: 50px;
     padding-bottom: 10px;
     font-size: 1rem;
