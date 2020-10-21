@@ -491,9 +491,6 @@ button.social-signin.google {
     border-radius: 5px;
   }
 
-  .sec2head{
-    font-size: 1.5rem;
-  }
 
   .p{
     margin-left: 15px;
@@ -512,7 +509,7 @@ button.social-signin.google {
   }
 
   .sec2head{
-    font-size: 10px;
+    font-size: 1.1rem;
   }
 
   .footer{
