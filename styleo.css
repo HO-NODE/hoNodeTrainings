@@ -39,9 +39,11 @@ body {
   font-family: Joint by PizzaDude;
   color: coral !important;
 }
+
 /* .navbar-toggler-icon{
   color: black;
 } */
+
 .navbar *{
   display: inline;
   text-decoration: none;
@@ -54,8 +56,8 @@ body {
 .navbar li{
   margin: 20px;
   padding-left: 30px;
-
 }
+
 .nav-link{
   color: black !important;
   transition: 0.5s ease-in-out;
@@ -479,8 +481,23 @@ button.social-signin.google {
 
   }
 
-  nav.navbar.open {
-    margin-bottom: 120px;
+  
+
+  .navbar{
+    position: relative;
+    display: inline;
+    text-decoration: none;
+  }
+
+  .navbar li{
+    margin: 9px;
+  }
+
+  .nav-link{
+    transition: 0.5s ease-in-out;
+  }
+  .signupt{
+    margin-bottom: 0;
   }
   
 
