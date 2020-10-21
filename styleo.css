@@ -575,5 +575,10 @@ button.social-signin.google {
     padding-left: 15%;
   }
 
+  #footer{
+    position: absolute;
+    z-index: -10;
+  }
+
 
 }
