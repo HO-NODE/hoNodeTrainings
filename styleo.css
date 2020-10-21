@@ -44,10 +44,13 @@ body {
   color: black;
 } */
 
-.navbar *{
+/* .navbar *{
   display: inline;
   text-decoration: none;
-}
+} */
+
+
+
 .navbar ul{
   list-style-type: none;
   display: flex;
