@@ -474,7 +474,7 @@ button.social-signin.google {
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .sec1{
     background-repeat: no-repeat;
     background-size: cover;
@@ -489,7 +489,12 @@ button.social-signin.google {
   .navbar{
     position: relative;
     display: inline;
-    text-decoration: none;
+  }
+
+  .navbar-toggler{
+    margin-left: 30%;
+    margin-top: 15px;
+    background-attachment: fixed;
   }
 
   .navbar li{
