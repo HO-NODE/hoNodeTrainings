@@ -39,9 +39,9 @@ body {
   font-family: Joint by PizzaDude;
   color: coral !important;
 }
-.navbar-toggler-icon{
-  
-}
+/* .navbar-toggler-icon{
+  color: black;
+} */
 .navbar *{
   display: inline;
   text-decoration: none;
@@ -53,8 +53,8 @@ body {
 }
 .navbar li{
   margin: 20px;
-  
   padding-left: 30px;
+
 }
 .nav-link{
   color: black !important;
@@ -112,10 +112,15 @@ body {
   text-align: center;
   margin: 2%;
 }
+
+hr{
+  display: none;
+}
 .contall{
   display: flex;
   flex-direction: row;
 }
+
 .cont{
   width: 30%;
   height: auto;
@@ -464,11 +469,11 @@ button.social-signin.google {
     text-align: center;
 }
 
-@media (min-width: 300px) and (max-width: 376px) {
+@media screen and (max-width: 400px) {
   .sec1{
-    background-size: contain;
-    height: 50vh;
-    max-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     background-attachment: fixed;
   }
   
@@ -490,8 +495,6 @@ button.social-signin.google {
     font-size: 1.5rem;
   }
 
-
-
   .p{
     margin-left: 15px;
     font-size: 1.0rem;
@@ -501,11 +504,45 @@ button.social-signin.google {
     padding: 5px;
   }
 
-  .sec3head, .cont{
-    display: none;
-    margin: 0;
+
+  .contall{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
   }
 
+  .sec2head{
+    font-size: 10px;
+  }
+
+  .footer{
+    z-index: -1;
+  }
+  .cont{
+    width: 95%;
+    height: auto;
+    text-align: center;
+    margin: 5%;
+
+    
+  }
+  .fa-history, .fa-heart{
+    font-size: 20px;    
+  }
+
+  .footer{
+    color: black;
+  }
+  #footer .footer-top {
+    background: whitesmoke;
+    color: black;
+    padding: 60px 0 30px 0;
+  }
+
+  #footer .footer-top h4{
+    color: black;
+  }
+  
   .signup{
     display: none;
   }
@@ -514,6 +551,10 @@ button.social-signin.google {
   .footer-info{
     padding-top: 0;
     width: 100%;
+  }
+
+  .footer-info > p{
+    color: black !important;
   }
 
   .footer-info > img{
@@ -527,14 +568,12 @@ button.social-signin.google {
 
 
   .social-links{
-    text-align: center;
     position: absolute;
     margin-top: 120%;
-    padding-left: 50px;
-    padding-bottom: 10px;
-    font-size: 1rem;
-    
+    padding-bottom: 10px;  
+    background-color: white;
+    padding-left: 15%;
   }
 
-  
+
 }
