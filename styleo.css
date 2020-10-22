@@ -91,9 +91,11 @@ body {
   background-image: url(./images/coding\ girl.jpg);
   height: 100vh;
   background-size: cover;
+  background-position: center center; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   padding: 30px;
   margin-top: 5%;
-  background-attachment: fixed;
 }
 
 /* Sec: 2*/
@@ -474,14 +476,11 @@ button.social-signin.google {
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
-  .sec1{
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    height: 70vh;
-    background-attachment: fixed;
+  /* Media   */
 
+@media screen and (max-width: 480px) {
+  .sec1{
+    height: 80vh;
   }
 
   
@@ -501,9 +500,6 @@ button.social-signin.google {
     margin-top: 15px;
   }
 
-  .sticky{
-    overflow: auto;
-  }
 
   .signupt{
     padding: .8rem;
@@ -513,7 +509,7 @@ button.social-signin.google {
   .tit{
     color: coral;
     font-size: 1.5em;
-    margin-top: 5em;
+    margin-top: 70%;
   }
   
   .sec1btn{
