@@ -479,33 +479,34 @@ button.social-signin.google {
     background-repeat: no-repeat;
     background-size: cover;
     
-    height: 100vh;
+    height: 70vh;
     background-attachment: fixed;
 
   }
 
   
-
   .navbar{
-    position: relative;
+    position: fixed;
     display: inline;
+  }
+
+  .navbar ul{
+    background-color:white;
+    position: relative;
+    margin: 0;
   }
 
   .navbar-toggler{
     margin-left: 30%;
     margin-top: 15px;
-    background-attachment: fixed;
   }
 
-  .navbar li{
-    margin: 9px;
+  .sticky{
+    overflow: auto;
   }
 
-  .nav-link{
-    transition: 0.5s ease-in-out;
-  }
   .signupt{
-    margin-bottom: 0;
+    padding: .8rem;
   }
   
 
