@@ -38,8 +38,8 @@ body {
   font-family: Joint by PizzaDude;
   color: coral !important;
 }
-.navbar *{
-  display: inline;
+.navbar{
+  display: flex;
   text-decoration: none;
 }
 .navbar ul{
@@ -74,226 +74,13 @@ body {
   color: #DD4B39;
 }
 
-
-
-
-/* Sec1 */
-.sec1{
-  background-image: url(./images/coding\ girl.jpg);
-  height: 100vh;
-  background-size: cover;
-  padding: 30px;
-  margin-top: 3%;
-  background-attachment: fixed;
-}
-
-/* Sec: 2*/
-.sec2{
-  margin: 2%;
-}
-.sec2head{
-  text-align: center;
+/* Course Content */
+.less{
+  font-size: 1.5rem;
 }
 
 
-/* Sec3 */
-.sec3{
-  margin: 2%;
-  background-color: coral;
-  color: white;
-}
-.sec3head{
-  text-align: center;
-  margin: 2%;
-}
-.contall{
-  display: flex;
-  flex-direction: row;
-}
-.cont{
-  width: 30%;
-  height: auto;
-  border: 1px solid coral;
-  text-align: center;
-  margin: 3%;
-  
-}
-.fa-history, .fa-heart{
-  font-size: 70px;
-  
-}
 
-
-.tit{
-  margin-top: 20%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 40px;
-  font-weight: 900;
-  color: coral;
-  text-transform: uppercase;
-  text-align: center;
-}
-.sec1btn{
-  padding: 20px 50px;
-  background-color: coral;
-  color: white;
-  font-family: Nanotech LLC;
-  outline: none;
-  border: none;
-  margin-left: 45%;
-}
-
-/* Sign Up */
-
-#login-box {
-  position: relative;
-  margin: 5% auto;
-  width: 600px;
-  height: 400px;
-  background: #FFF;
-  border-radius: 2px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  z-index: -1;
-}
-
-.left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  box-sizing: border-box;
-  padding: 40px;
-  width: 300px;
-  height: 400px;
-
-}
-
-h1 {
-  margin: 0 0 20px 0;
-  font-weight: 300;
-  font-size: 28px;
-}
-
-input[type="text"],
-input[type="password"] {
-  display: block;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  padding: 4px;
-  width: 220px;
-  height: 32px;
-  border: none;
-  border-bottom: 1px solid #AAA;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  transition: 0.2s ease;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus {
-  border-bottom: 2px solid #16a085;
-  color: #16a085;
-  transition: 0.2s ease;
-}
-
-input[type="submit"] {
-  margin-top: 28px;
-  width: 120px;
-  height: 32px;
-  background: #16a085;
-  border: none;
-  border-radius: 2px;
-  color: #FFF;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: 0.1s ease;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-  opacity: 0.8;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  transition: 0.1s ease;
-}
-
-input[type="submit"]:active {
-  opacity: 1;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-  transition: 0.1s ease;
-}
-
-.or {
-  position: absolute;
-  top: 180px;
-  left: 280px;
-  width: 40px;
-  height: 40px;
-  background: #DDD;
-  border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  line-height: 40px;
-  text-align: center;
-}
-
-.right {
-  position: absolute;
-  top: 0;
-  right: 0;
-  box-sizing: border-box;
-  padding: 40px;
-  width: 300px;
-  height: 400px;
-  background: url('./images/IMG_1553.jpg');
-  background-size: cover;
-  background-position: center;
-  border-radius: 0 2px 2px 0;
-}
-
-.right .loginwith {
-  display: block;
-  margin-bottom: 40px;
-  font-size: 28px;
-  color: #FFF;
-  text-align: center;
-}
-
-button.social-signin {
-  margin-bottom: 20px;
-  width: 220px;
-  height: 36px;
-  border: none;
-  border-radius: 2px;
-  color: #FFF;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  transition: 0.2s ease;
-  cursor: pointer;
-}
-
-button.social-signin:hover,
-button.social-signin:focus {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  transition: 0.2s ease;
-}
-
-button.social-signin:active {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-  transition: 0.2s ease;
-}
-
-button.social-signin.facebook {
-  background: #32508E;
-}
-
-button.social-signin.twitter {
-  background: #55ACEE;
-}
-
-button.social-signin.google {
-  background: #DD4B39;
-}
 
 /*--------------------------------------------------------------
 # Footer
@@ -515,52 +302,27 @@ button.social-signin.google {
   text-align: center;
 }
 
-@media (min-width: 300px) and (max-width: 376px) {
-.sec1{
-  background-size: contain;
-  height: 50vh;
-  max-height: 50vh;
-  background-attachment: fixed;
-}
+@media screen and (max-width: 480px) {
+  
+  .navbar{
+    position: fixed;
+    display: inline;
+  }
 
+  .navbar ul{
+    background-color:white;
+    position: relative;
+    margin: 0;
+  }
 
-.tit{
-  color: coral;
-  font-size: 1.5em;
-  margin-top: 5em;
-}
+  .navbar-toggler{
+    margin-left: 30%;
+    margin-top: 15px;
+  }
 
-.sec1btn{
-  text-align: center;
-  margin-left: 28%;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.sec2head{
-  font-size: 1.5rem;
-}
-
-
-
-.p{
-  margin-left: 15px;
-  font-size: 1.0rem;
-}
-
-.contpara{
-  padding: 5px;
-}
-
-.sec3head, .cont{
-  display: none;
-  margin: 0;
-}
-
-.signup{
-  display: none;
-}
-
+  .currs{
+    display: none;
+  }
 
 .footer-info{
   padding-top: 0;

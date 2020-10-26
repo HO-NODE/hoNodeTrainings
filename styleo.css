@@ -165,7 +165,7 @@ hr{
 
 /* Sign Up */
 
-#login-box {
+/* #login-box {
   position: relative;
   margin: 5% auto;
   width: 600px;
@@ -313,7 +313,7 @@ button.social-signin.twitter {
 
 button.social-signin.google {
   background: #DD4B39;
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
@@ -476,7 +476,7 @@ button.social-signin.google {
     text-align: center;
 }
 
-  /* Media   */
+  /* Media Query for mobile*/
 
 @media screen and (max-width: 480px) {
   .sec1{
