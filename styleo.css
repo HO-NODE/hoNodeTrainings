@@ -594,7 +594,7 @@ button.social-signin.google {
 
   .social-links{
     position: absolute;
-    margin-top: 120%;
+    margin-top: 100%;
     padding-bottom: 10px;  
     background-color: white;
     padding-left: 15%;
