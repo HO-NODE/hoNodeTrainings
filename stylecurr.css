@@ -324,11 +324,6 @@ body {
     margin-top: 15px;
   }
 
-  .dropdown{
-    display: fixed;
-
-  }
-
   .currs{
     display: none;
   }
